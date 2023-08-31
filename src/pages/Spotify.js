@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const clientId = "96f48e040b554b7f95693b1edf78388a";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotify-xa5a.vercel.app/";
 const authEndpoint = "https://accounts.spotify.com/authorize?";
 const scopes = [
   "user-library-read",
