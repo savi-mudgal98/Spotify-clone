@@ -40,7 +40,7 @@ export default function Sidebar() {
       
         
       <p style={{color:'white'}} >{info.display_name}</p>
-      <img src={info.images[0].url} className="profile-img" alt="profile" />
+      <img src="/images/user.png" className="profile-img" alt="profile" />
 
       <div>
         <SidebarButton title="Search" to="/search" icon={<BsFillSearchHeartFill/>} />
