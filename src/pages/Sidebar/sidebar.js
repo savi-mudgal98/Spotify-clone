@@ -44,7 +44,7 @@ export default function Sidebar() {
 
       <div>
         <SidebarButton title="Search" to="/search" icon={<BsFillSearchHeartFill/>} />
-        <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} />
+        <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} /> 
         <SidebarButton title="Player" to="/player" icon={<FaPlay />} />
         <SidebarButton title="Playlists" to="/" icon={<IoLibrary />} />
         <SidebarButton title="Favorites"  to="/favorites" icon={<MdFavorite />}/>

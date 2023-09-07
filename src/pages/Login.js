@@ -8,7 +8,7 @@ export default function Login() {
    <div className="login">
     <img
    
-        src="/images/spotify.png"
+        src="/images/fitbeat.png"
         alt="spotify"
       />
   

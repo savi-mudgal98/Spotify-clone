@@ -6,7 +6,7 @@ import Queue from "../components/Queue/Queue";
 import AudioPLayer from "../components/AudioPlayer/Audioplayer";
 import Widgets from "../components/Widgets/Widgets";
 
-import '../index.css'
+import '../index.css';
 
 
 
