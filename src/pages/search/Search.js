@@ -14,6 +14,7 @@ export default function Search() {
 const[query,setQuery]=useState("");
 const[search,setSearch]=useState([]);
 
+
   useEffect(() => {
     apiClient.get(`search?q=${query}&type=track`)
     .then((response) => {

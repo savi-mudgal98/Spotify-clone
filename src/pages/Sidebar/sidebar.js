@@ -2,7 +2,6 @@ import React, { useState, useEffect} from "react";
 import SidebarButton from "./sidebar-button";
 import { MdFavorite } from "react-icons/md";
 import { FaGripfire, FaPlay } from "react-icons/fa";
-
 import { IoLibrary } from "react-icons/io5";
 import {BsFillSearchHeartFill} from "react-icons/bs"
 import apiClient from "../Spotify";
@@ -16,7 +15,7 @@ export default function Sidebar() {
 
   const navigate= useNavigate();
 
-  const singingOut=()=>{
+  const signingOut=()=>{
     console.log("called");
     localStorage.removeItem('token');
      navigate("/");
@@ -50,7 +49,7 @@ export default function Sidebar() {
         <SidebarButton title="Favorites"  to="/favorites" icon={<MdFavorite />}/>
       </div>
       
-       <button variant="text"  onClick={singingOut} className="signout">
+       <button variant="text"  onClick={signingOut} className="signout">
          Sign Out
        </button>
     </div>

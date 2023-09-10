@@ -9,6 +9,7 @@ export default function SidebarButton(props) {
   const isActive = location.pathname === props.to;
 
   const btnClass = isActive ? "btn-body active" : "btn-body";
+  
   return (
     <Link to={props.to}>
       <div className={btnClass}>

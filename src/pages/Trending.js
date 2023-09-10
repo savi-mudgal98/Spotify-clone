@@ -39,9 +39,7 @@ const Trending = () => {
            <p className="search-title">{item.name}</p>
            <p className="search-artist">{item.artists[0].name}</p>  
              
-           <div className="search-fade">
-      
-         </div>
+       
          </div>
          ))}
 
